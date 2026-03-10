@@ -12,7 +12,7 @@ void input()
     cout << "Enter length: ";
     cin >> length;
 // Ask user to enter rectangle width
-    cout << "Enter width: ";
+    cout << " Enter width: ";
     cin >> width;
 }
 // Function to calculate rectangle area
@@ -32,6 +32,7 @@ int main()
     output();
 
 }
+
 
 
 
