@@ -5,7 +5,7 @@ using namespace std;
 
 // Variables for rectangle dimensions
 int length, width;
-
+//function to enter the rectangle dimensions
 void input()
 { 
     
@@ -32,6 +32,7 @@ int main()
     output();
 
 }
+
 
 
 
