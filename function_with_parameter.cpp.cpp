@@ -1,3 +1,5 @@
+// Assignment: Function With Parameter Example
+// C++ rectangle area and perimeter program
 
 #include <iostream>
 using namespace std;
@@ -33,4 +35,5 @@ int main()
     input();
     output();
     cout << "Perimeter: " << rectanglePerimeter(length, width);
+
 }
