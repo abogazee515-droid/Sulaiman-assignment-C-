@@ -27,11 +27,12 @@ int main()
     cout << "Enter width: ";
     cin >> width;
 
-    // Output results
+    //  Output results
     cout << "Area: " << rectangleArea(length, width) << endl;
     cout << "Perimeter: " << rectanglePerimeter(length, width);
 
     return 0;
 }
+
 
 
