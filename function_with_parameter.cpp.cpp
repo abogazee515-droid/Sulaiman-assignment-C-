@@ -4,36 +4,32 @@
 #include <iostream>
 using namespace std;
 
-int length, width;
-
-void input()
+// Function to  calculate rectangle area
+int rectangleArea(int length, int width)
 {
+    return length * width;
+}
+
+// Function to calculate rectangle perimeter
+int rectanglePerimeter(int length, int width)
+{
+    return 2 * (length + width);
+}
+
+int main()
+{
+    int length, width;
+
+    // Input from user
     cout << "Enter length: ";
     cin >> length;
 
     cout << "Enter width: ";
     cin >> width;
-}
 
-int rectangleArea(int a, int b)
-{
-    return a * b;
-}
-
-int rectanglePerimeter(int a, int b)
-{
-    return 2 * (a + b);
-}
-
-void output()
-{
+    // Output results
     cout << "Area: " << rectangleArea(length, width) << endl;
-}
-
-int main()
-{
-    input();
-    output();
     cout << "Perimeter: " << rectanglePerimeter(length, width);
 
+    return 0;
 }
